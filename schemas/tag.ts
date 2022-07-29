@@ -7,11 +7,17 @@ const tagSchema = {
       name: 'name',
       title: 'Name',
       type: 'string',
+      validation: rule => rule.required(),
     },
     {
-      title: 'slug',
-      name: 'avatar',
-      type: 'string',
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'name',
+        maxLength: 96,
+      },
+      validation: rule => rule.required().max(100),
     },
     {
       name: 'description',

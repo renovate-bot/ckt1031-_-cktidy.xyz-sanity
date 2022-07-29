@@ -6,7 +6,9 @@ import post from './post';
 import author from './author';
 import blockContent from './block-content';
 
-export default createSchema({
+const schema = createSchema({
   name: 'default',
   types: schemaTypes.concat([author, blockContent, post, tag]),
 });
+
+export default schema;
