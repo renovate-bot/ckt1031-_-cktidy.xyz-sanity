@@ -54,7 +54,7 @@ const postSchema = {
     {
       name: 'body',
       title: 'Body',
-      type: 'blockContent',
+      type: 'markdown',
     },
   ],
   preview: {
