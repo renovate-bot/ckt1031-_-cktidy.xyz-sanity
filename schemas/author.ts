@@ -17,7 +17,7 @@ const authorSchema = {
         source: 'name',
         maxLength: 96,
       },
-      validation: rule => rule.required().max(100),
+      validation: rule => rule.required(),
     },
     {
       title: 'Avatar',

@@ -17,7 +17,7 @@ const postSchema = {
         source: 'title',
         maxLength: 96,
       },
-      validation: rule => rule.required().max(100),
+      validation: rule => rule.required(),
     },
     {
       name: 'author',
