@@ -7,6 +7,7 @@ const authorSchema = {
       name: 'name',
       type: 'string',
       title: 'Name',
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
@@ -17,12 +18,14 @@ const authorSchema = {
         source: 'name',
         maxLength: 96,
       },
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
       title: 'Avatar',
       name: 'avatar',
       type: 'image',
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {

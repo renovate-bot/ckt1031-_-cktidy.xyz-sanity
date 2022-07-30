@@ -7,6 +7,7 @@ const tagSchema = {
       name: 'name',
       title: 'Name',
       type: 'string',
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
@@ -17,6 +18,7 @@ const tagSchema = {
         source: 'name',
         maxLength: 96,
       },
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {

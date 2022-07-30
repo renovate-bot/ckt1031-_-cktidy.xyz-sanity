@@ -7,6 +7,7 @@ const postSchema = {
       name: 'title',
       title: 'Title',
       type: 'string',
+      codegen: { required: true },
       validation: rule => rule.required().max(50),
     },
     {
@@ -17,6 +18,7 @@ const postSchema = {
         source: 'title',
         maxLength: 96,
       },
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
@@ -24,6 +26,7 @@ const postSchema = {
       title: 'Author',
       type: 'reference',
       to: { type: 'author' },
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
@@ -36,6 +39,7 @@ const postSchema = {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
+      codegen: { required: true },
       validation: rule => rule.required(),
     },
     {
@@ -50,11 +54,15 @@ const postSchema = {
       name: 'enable_comment',
       title: 'Enable Comment',
       type: 'boolean',
+      codegen: { required: true },
+      validation: rule => rule.required(),
     },
     {
       name: 'body',
       title: 'Body',
       type: 'markdown',
+      codegen: { required: true },
+      validation: rule => rule.required(),
     },
   ],
   preview: {

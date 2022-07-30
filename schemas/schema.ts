@@ -4,11 +4,10 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import tag from './tag';
 import post from './post';
 import author from './author';
-import blockContent from './block-content';
 
 const schema = createSchema({
   name: 'default',
-  types: schemaTypes.concat([author, blockContent, post, tag]),
+  types: schemaTypes.concat([author, post, tag]),
 });
 
 export default schema;
