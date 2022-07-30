@@ -58,6 +58,13 @@ const postSchema = {
       validation: rule => rule.required(),
     },
     {
+      name: 'breif',
+      title: 'Breif',
+      type: 'text',
+      codegen: { required: true },
+      validation: rule => rule.required(),
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'markdown',
