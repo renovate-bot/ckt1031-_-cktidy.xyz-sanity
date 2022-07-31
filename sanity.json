@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "n2cwm9uv",
+    "dataset": "production"
+  },
   "project": {
     "name": "cktidy"
-  },
-  "api": {
-    "projectId": "mv39mtu7",
-    "dataset": "production"
   },
   "plugins": [
     "markdown",
