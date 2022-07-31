@@ -7,17 +7,20 @@
   "scripts": {
     "start": "sanity start --port 3000 --host 0.0.0.0",
     "build": "sanity build",
-    "format": "prettier -w .",
-    "export-type": "sanity-codegen"
+    "prebuild": "sanity-codegen",
+    "format": "prettier -w ."
   },
   "dependencies": {
     "@sanity/base": "^2.30.1",
     "@sanity/code-input": "^2.30.1",
+    "@sanity/color": "^2.1.11",
     "@sanity/core": "^2.30.2",
+    "@sanity/data-aspects": "^2.29.3",
     "@sanity/default-layout": "^2.30.1",
     "@sanity/default-login": "^2.30.1",
     "@sanity/desk-tool": "^2.30.1",
     "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/form-builder": "^2.30.1",
     "@sanity/vision": "^2.30.1",
     "prop-types": "^15.8.1",
     "react": "^17",

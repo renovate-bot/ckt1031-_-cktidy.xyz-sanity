@@ -4,7 +4,7 @@ import prettierConfig from './prettier.config';
 
 const config: SanityCodegenConfig = {
   schemaPath: './schemas/schema',
-  outputPath: './schema.ts',
+  outputPath: './static/schema.ts',
   prettierResolveConfigOptions: prettierConfig,
 };
 
