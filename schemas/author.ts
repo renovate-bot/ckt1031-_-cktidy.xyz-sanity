@@ -22,6 +22,13 @@ const authorSchema = {
       validation: rule => rule.required(),
     },
     {
+      name: 'email',
+      type: 'string',
+      title: 'Email',
+      codegen: { required: true },
+      validation: rule => rule.required(),
+    },
+    {
       title: 'Avatar',
       name: 'avatar',
       type: 'image',
