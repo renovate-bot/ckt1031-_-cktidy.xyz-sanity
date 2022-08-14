@@ -1,5 +1,5 @@
 {
-    "idStructure": "delimiter",
-    "referenceBehavior": "strong",
-    "languages": ["en"]
+  "idStructure": "delimiter",
+  "referenceBehavior": "strong",
+  "languages": ["en"]
 }
