@@ -13,7 +13,7 @@
   "dependencies": {
     "@sanity/base": "2.32.0",
     "@sanity/code-input": "2.32.0",
-    "@sanity/color": "2.1.14",
+    "@sanity/color": "2.1.16",
     "@sanity/core": "2.32.0",
     "@sanity/data-aspects": "2.29.3",
     "@sanity/default-layout": "2.32.0",
