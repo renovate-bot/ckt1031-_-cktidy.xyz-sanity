@@ -4,5 +4,4 @@
 package-lock.json
 static/schema.ts
 yarn.lock
-pnpm-lock.yaml
 yarn-error.log
