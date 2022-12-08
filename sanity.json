@@ -14,8 +14,7 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "@sanity/code-input",
-    "media",
-    "@sanity/document-internationalization"
+    "media"
   ],
   "env": {
     "development": {
