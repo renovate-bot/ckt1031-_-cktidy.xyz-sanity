@@ -1,16 +1,17 @@
-const authorSchema = {
+import { defineField, defineType } from 'sanity';
+
+const authorSchema = defineType({
   name: 'author',
   title: 'Author',
   type: 'document',
   fields: [
-    {
+    defineField({
       name: 'name',
       type: 'string',
       title: 'Name',
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -18,29 +19,26 @@ const authorSchema = {
         source: 'name',
         maxLength: 96,
       },
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       name: 'email',
       type: 'string',
       title: 'Email',
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       title: 'Avatar',
       name: 'avatar',
       type: 'image',
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       title: 'Description',
       name: 'description',
       type: 'string',
-    },
+    }),
   ],
-};
+});
 
 export default authorSchema;

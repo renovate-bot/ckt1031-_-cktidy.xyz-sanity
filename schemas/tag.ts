@@ -1,16 +1,17 @@
-const tagSchema = {
+import { defineField, defineType } from 'sanity';
+
+const tagSchema = defineType({
   name: 'tag',
   title: 'Tag',
   type: 'document',
   fields: [
-    {
+    defineField({
       name: 'name',
       title: 'Name',
       type: 'string',
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -18,15 +19,14 @@ const tagSchema = {
         source: 'name',
         maxLength: 96,
       },
-      codegen: { required: true },
       validation: rule => rule.required(),
-    },
-    {
+    }),
+    defineField({
       name: 'description',
       title: 'Description',
       type: 'text',
-    },
+    }),
   ],
-};
+});
 
 export default tagSchema;
