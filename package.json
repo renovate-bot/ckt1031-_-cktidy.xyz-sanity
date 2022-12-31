@@ -1,16 +1,15 @@
 {
   "private": true,
-  "name": "cktidy",
+  "name": "cktidy-sanity",
   "version": "0.0.0",
   "description": "cktidy.xyz sanity managment",
   "author": "cktsun1031",
-  "packageManager": "pnpm@7.19.0",
+  "packageManager": "pnpm@7.21.0",
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
-    "prebuild": "sanity-codegen",
     "format": "prettier -w .",
     "lint": "eslint --fix ."
   },
@@ -28,7 +27,7 @@
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "2.0.1",
-    "eslint": "8.30.0",
+    "eslint": "8.31.0",
     "prettier": "2.8.1",
     "typescript": "4.9.4"
   }
