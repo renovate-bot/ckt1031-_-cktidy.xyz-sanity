@@ -1,7 +1,7 @@
 /.config/
 /node_modules/
 /dist/
-package-lock.json
 static/schema.ts
 yarn.lock
 yarn-error.log
+.gitpod.yml
