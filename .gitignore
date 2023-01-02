@@ -5,3 +5,4 @@ static/schema.ts
 yarn.lock
 yarn-error.log
 .gitpod.yml
+.sanity

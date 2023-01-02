@@ -1,7 +1,7 @@
 import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 import { visionTool } from '@sanity/vision';
-import { schemaTypes } from './schemas';
+import schemaTypes from './schemas';
 import { markdownSchema } from 'sanity-plugin-markdown';
 import { codeInput } from '@sanity/code-input';
 import { media } from 'sanity-plugin-media';
