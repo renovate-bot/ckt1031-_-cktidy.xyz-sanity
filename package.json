@@ -30,7 +30,7 @@
     "@sanity/eslint-config-studio": "2.0.1",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "eslint": "8.31.0",
-    "prettier": "2.8.2",
+    "prettier": "2.8.3",
     "typescript": "4.9.4"
   }
 }
