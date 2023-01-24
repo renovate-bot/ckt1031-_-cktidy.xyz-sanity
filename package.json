@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "cktidy.xyz sanity managment",
   "author": "cktsun1031",
-  "packageManager": "npm@9.3.1",
+  "packageManager": "pnpm@7.26.0",
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
