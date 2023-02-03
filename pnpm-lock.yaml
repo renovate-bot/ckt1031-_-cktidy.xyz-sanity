@@ -14,7 +14,7 @@ specifiers:
   sanity: 3.2.6
   sanity-codegen: ^0.9.8
   sanity-plugin-markdown: 4.0.0
-  sanity-plugin-media: 2.0.4
+  sanity-plugin-media: 2.0.5
   styled-components: 5.3.6
   typescript: 4.9.5
 
@@ -28,7 +28,7 @@ dependencies:
   sanity: 3.2.6_2zpt4ilzykmne4yndyzrqd4gdm
   sanity-codegen: 0.9.8_hdownhhqc7235ibx27rbkaujjm
   sanity-plugin-markdown: 4.0.0_rj5bdv7sqh2a4hi3jpe4vkkapu
-  sanity-plugin-media: 2.0.4_5ynna3qnh7gps2nosbnvhgs6aa
+  sanity-plugin-media: 2.0.5_5ynna3qnh7gps2nosbnvhgs6aa
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
 devDependencies:
@@ -6823,8 +6823,8 @@ packages:
       - react-is
     dev: false
 
-  /sanity-plugin-media/2.0.4_5ynna3qnh7gps2nosbnvhgs6aa:
-    resolution: {integrity: sha512-cLJOa1LZKHWCCJJdjf3j/STiiNj6WtYNQCwF52FTV1zI/PQBhVClRsBBEw5FJM6ru9c+MHlv09PPh+HRpGxQVw==}
+  /sanity-plugin-media/2.0.5_5ynna3qnh7gps2nosbnvhgs6aa:
+    resolution: {integrity: sha512-v1SyBezXoiLh2g3olX08cjFpytRF3NkCxCOkFzHz3RVbQQwpYSeazKmGq52XONi/Ci6DpyKmgLWRJCyT/xZc1g==}
     engines: {node: '>=14'}
     peerDependencies:
       '@sanity/color': ^2.1.20
