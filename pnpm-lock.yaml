@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@sanity/code-input':
-    specifier: 4.1.0
-    version: 4.1.0(@babel/runtime@7.20.13)(@codemirror/lint@6.1.0)(@codemirror/theme-one-dark@6.1.0)(@lezer/common@1.0.2)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(sanity@3.10.1)(styled-components@5.3.10)
+    specifier: 4.1.1
+    version: 4.1.1(@babel/runtime@7.20.13)(@codemirror/lint@6.1.0)(@codemirror/theme-one-dark@6.1.0)(@lezer/common@1.0.2)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(sanity@3.10.1)(styled-components@5.3.10)
   '@sanity/vision':
     specifier: 3.10.1
     version: 3.10.1(@babel/runtime@7.20.13)(@codemirror/lint@6.1.0)(@codemirror/state@6.2.0)(@codemirror/theme-one-dark@6.1.0)(@lezer/common@1.0.2)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@5.3.10)
@@ -2251,8 +2251,8 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/code-input@4.1.0(@babel/runtime@7.20.13)(@codemirror/lint@6.1.0)(@codemirror/theme-one-dark@6.1.0)(@lezer/common@1.0.2)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(sanity@3.10.1)(styled-components@5.3.10):
-    resolution: {integrity: sha512-Zox7rCVj7OBCYtpQloV6Fw2MamcmEu8GTTZTQMaTcD27ySvuQ5yvpvAolXToakjb2o08hlwK5svKjFlSRfjjcQ==}
+  /@sanity/code-input@4.1.1(@babel/runtime@7.20.13)(@codemirror/lint@6.1.0)(@codemirror/theme-one-dark@6.1.0)(@lezer/common@1.0.2)(codemirror@6.0.1)(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(sanity@3.10.1)(styled-components@5.3.10):
+    resolution: {integrity: sha512-dw1FiHEt9CPuh+Q4YTIdQnH2+RUXYSlXSeoKlfj1rPwIZ/nFYum2ANncHwn35h83QfwsJLFpPHTnOzRpKQR/uw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^18
