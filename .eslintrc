@@ -1,4 +1,8 @@
 {
-  "extends": "@sanity/eslint-config-studio",
-  "ignorePatterns": ["dist"]
+  "extends": ["@sanity/eslint-config-studio"],
+  "ignorePatterns": ["dist"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": "./tsconfig.json"
+  }
 }
