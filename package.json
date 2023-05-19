@@ -31,7 +31,7 @@
     "@ckt1031/tsconfig": "1.1.6",
     "@sanity/eslint-config-studio": "2.0.1",
     "babel-plugin-transform-vite-meta-env": "1.0.3",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "prettier": "2.8.8",
     "typescript": "5.0.4"
   },
