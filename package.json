@@ -23,7 +23,7 @@
     "sanity-codegen": "0.9.8",
     "sanity-plugin-markdown": "4.1.0",
     "sanity-plugin-media": "2.0.5",
-    "styled-components": "5.3.10"
+    "styled-components": "5.3.11"
   },
   "devDependencies": {
     "@ckt1031/eslint-config": "1.1.6",
