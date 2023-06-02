@@ -26,7 +26,7 @@
     "styled-components": "5.3.11"
   },
   "devDependencies": {
-    "@ckt1031/eslint-config": "1.1.6",
+    "@ckt1031/eslint-config": "1.1.7",
     "@ckt1031/prettier-config": "1.1.7",
     "@ckt1031/tsconfig": "1.1.6",
     "@sanity/eslint-config-studio": "2.0.1",
