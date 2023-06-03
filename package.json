@@ -5,7 +5,7 @@
   "description": "cktidy.xyz sanity studio",
   "author": "ckt1031",
   "scripts": {
-    "build": "sanity build && sanity-codegen",
+    "build": "sanity build",
     "deploy": "sanity deploy",
     "dev": "sanity dev",
     "format": "prettier -w .",
@@ -20,7 +20,6 @@
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
     "sanity": "3.11.5",
-    "sanity-codegen": "0.9.8",
     "sanity-plugin-markdown": "4.1.0",
     "sanity-plugin-media": "2.0.5",
     "styled-components": "5.3.11"
@@ -30,7 +29,6 @@
     "@ckt1031/prettier-config": "1.1.7",
     "@ckt1031/tsconfig": "1.1.7",
     "@sanity/eslint-config-studio": "2.0.1",
-    "babel-plugin-transform-vite-meta-env": "1.0.3",
     "eslint": "8.42.0",
     "prettier": "2.8.8",
     "typescript": "5.1.3"
