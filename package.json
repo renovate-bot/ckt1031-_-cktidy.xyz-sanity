@@ -29,7 +29,7 @@
     "@ckt1031/prettier-config": "1.1.8",
     "@ckt1031/tsconfig": "1.1.8",
     "@sanity/eslint-config-studio": "2.0.1",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "prettier": "2.8.8",
     "typescript": "5.1.3"
   },
